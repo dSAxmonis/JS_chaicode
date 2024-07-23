@@ -21,4 +21,10 @@ console.log(newString);
 const anotherString = gameName.slice(-17, 6)
 console.log(anotherString);
 
-console.log(gameName.replace('-', '_'))
+console.log(gameName.replaceAll('-', '_'))
+console.log(gameName.includes('Js'))
+
+
+// *****************CONVERTING STRING INTO ARRAY BASED ON SOMETHING*************************
+
+console.log(gameName.split('-'))
